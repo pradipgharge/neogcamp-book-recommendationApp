@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=Yomogi&family=Quicksand&family=Comfortaa&family=Darker+Grotesque:wght@600&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(107, 130, 207);
+}
+
+h1 {
+  font-family: "Tangerine", cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: -0.3rem;
+  color: #041b58;
+}
+
+h2 {
+  font-family: "Yomogi", cursive;
+  font-weight: 900;
+  text-align: center;
+  margin: 1rem;
+  padding-top: 1rem;
+  color: #fca9a9;
+}
+
+.buttons {
+  margin-bottom: 2rem;
+}
+
+.genreList {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 1rem;
+  cursor: pointer;
+  border: 2px solid #fecaca;
+  color: #831843;
+  padding: 0.6rem;
+  width: 90px;
+  border-radius: 1rem;
+  background-color: #fecaca;
+  transition: 0.2s;
+}
+.genreList:hover {
+  transform: scale(1.18);
+  background-color: #fce58c;
+  border: 2px solid #831843;
+}
+
+.genreList:focus {
+  background-color: #fce58c;
+  border: 2px solid #fce58c;
+}
+
+.lineBreak {
+  border: 1px solid #fecaca;
+  width: 60%;
+}
+
+.listItems {
+  padding-top: 1rem;
+  padding-inline-start: 0;
+}
+
+.genreBooks {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0.5rem;
+  padding: 1rem;
+  text-align: left;
+  background-color: #fdd656;
+  border: 1px solid rgb(209, 213, 219);
+  border-radius: 0.5rem;
+  width: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.genreBooks:hover {
+  transform: translateY(-7px);
+  background-color: transparent;
+  box-shadow: 0 7px 0 -2px #f87171, 0 15px 0 -4px #2563eb;
+}
+
+.booksName {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.3rem;
+}
+
+.booksRating {
+  font-size: 1rem;
+  font-family: "Darker Grotesque", sans-serif;
+}
