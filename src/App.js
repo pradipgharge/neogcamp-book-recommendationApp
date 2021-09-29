@@ -4,14 +4,14 @@ import React, { useState } from "react";
 var bookShelf = {
   JavaScript: [
     { name: "Eloquent JavaScript", rating: "4.5/5" },
-    { name: "read JavaScript", rating: "3.5/5" },
-    { name: "Love JavaScript", rating: "2.5/5" }
+    { name: "Javascript the good parts", rating: "3.5/5" },
+    { name: "You don't know JS", rating: "2.5/5" }
   ],
 
   Fiction: [
     { name: "Harry Potter", rating: "4/5" },
     { name: "Lord Of the rings", rating: "3.5/5" },
-    { name: "Fifty Shades Triology", rating: "3/5" }
+    { name: "The Alchemist", rating: "3/5" }
   ],
   Comics: [
     { name: "Chacha chaudhari", rating: "4.5/5" },
